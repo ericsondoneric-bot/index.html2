@@ -1,0 +1,48 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>For My Love ❤️</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>For My Love ❤️</h1>
+    <p class="subtitle">I have something for you...</p>
+
+    <div class="envelope" onclick="openLetter()">
+        <div class="flap"></div>
+        <div class="heart">❤️</div>
+        <p>Click Me 💌</p>
+    </div>
+
+    <div class="letter" id="letter">
+        <h2>Dear Babyy, 💗</h2>
+        <p>
+        I just want you to know how special
+        you are to me. Thank you for staying,
+        loving me, and making my days happier.
+        </p>
+
+        <p>
+        Even when things get difficult,
+        I hope we continue choosing each other.
+        I appreciate you more than words can say.
+        </p>
+
+        <h3>I love you always! ❤️</h3>
+        <p>Forever yours. 💗</p>
+    </div>
+</div>
+
+<script>
+function openLetter() {
+    document.getElementById("letter").classList.add("show");
+}
+</script>
+
+</body>
+</html>
